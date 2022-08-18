@@ -89,3 +89,36 @@ h6 {
 .button-clicked-menu {
     min-width: 199px;
 }
+
+.modal {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.button-close-modal {
+    cursor: pointer;
+    position: absolute;
+    right: 45px;
+    top: 90px;
+}
+
+.next-carousel-button,
+.back-button-carousel {
+    cursor: pointer;
+}
+
+.carousel-modal {
+    display: flex;
+}
+
+.modal-image {
+    margin: 0 100px;
+    width: 555px;
+}
